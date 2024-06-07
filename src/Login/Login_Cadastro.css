@@ -1,0 +1,203 @@
+.input-box input::placeholder {
+  color: #0000009d;
+}
+
+.input-box input:focus {
+  background: transparent;
+}
+
+/* Ajustes para lembrar/esquecer */
+.login-form .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -10px 0 15px;
+}
+
+.senhaform{
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+  
+}
+
+.remember-forgot label input {
+  accent-color: #ffffff;
+  margin-right: 4px;
+  position: relative;
+  left: 20px;
+}
+
+.remember-forgot a {
+  color: #ffffff;
+  margin-right: 4px;
+}
+
+.login-form button, .cadastro-form button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  background: #fe9e0d !important;
+  color: #ffffff;
+  padding: 15px 35px 18px 20px;
+}
+
+.login-form .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-form, .cadastro-form input::placeholder {
+  color: #0000009c;
+}
+
+.input-box input:focus {
+  color: #000000a2;
+}
+
+.cadastro-form {
+  width: 100%;
+  background: transparent;
+  padding: 30px 40px; /* Ajuste o espaçamento conforme necessário */
+  border-radius: 10px; /* Arredonde as bordas se desejar */
+  position: relative;
+  top: 70px;
+}
+
+.cadastro-form {
+  max-width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background: transparent;
+  color: #fe9e0d;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  left: 20px;
+}
+
+.login-form {
+  max-width: 400px;
+  height: 485px;
+  top: 67px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background: transparent;
+  color: #fe9e0d;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  left: 20px;
+}
+
+/* Estilo para o título do formulário */
+.login-form h2, .cadastro-form h2 {
+  margin-bottom: 20px;
+  top: 6px;
+  color: #fe9e0d;
+}
+
+/* Estilo para os campos de formulário e botões */
+.login-form input[type="email"],
+.login-form input[type="password"],
+.cadastro-form input[type="email"],
+.cadastro-form input[type="password"] {
+  margin-bottom: 15px;
+}
+
+/* Estilo para os botões */
+.login-form .btn,
+.cadastro-form .btn {
+  margin-top: 15px;
+}
+
+/* Estilos para o link de cadastro */
+.login-form hr {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Estilos para as caixas de texto */
+.input-box input {
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  font-size: 16px;
+  padding: 0 15px; /* Ajuste de padding */
+  color: #000000 !important;
+}
+
+.remember-forgot a {
+  color: #150188;
+  position: relative;
+  top: -5px;
+  left: 107px;
+}
+
+.custom-button {
+  position: relative;
+}
+
+/* Estilos para as caixas de texto do cadastroForm */
+.mb-3 input {
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  font-size: 16px;
+  padding: 0 15px; /* Ajuste de padding */
+  color: #000000 !important;
+}
+
+.mb-3 input:focus {
+  background: transparent;
+  position: relative;
+  color: #000000;
+}
+
+.cadastro-form p {
+  position: relative;
+  bottom: 90px;
+  text-align: center;
+}
+
+.a2 {
+  position: relative;
+  bottom: 90px;
+  left: 130px;
+}
+
+.custom-button {
+  position: relative;
+  top: 50px;
+}
+
+/* Defina o estilo do botão quando o mouse passa sobre ele */
+.custom-button:hover {
+  background-color: #d4840b !important;
+  color: #ffffff !important;
+}
